@@ -1,0 +1,10 @@
+<h2>{{userName}} Home</h2>
+<button class="button" (click)="logout()" style="cursor: pointer">Logout</button>
+<!-- <h2>Image list follows</h2> -->
+<section class="images">
+    <h2 *ngFor="let photo of photos" >
+        <img class="default-photo" [src]=" photo " />
+    </h2>
+</section>
+
+<router-outlet></router-outlet>

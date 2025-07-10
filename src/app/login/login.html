@@ -1,0 +1,13 @@
+<div class="parent background-img">
+    <div class="container">
+        <div class="login-box">
+            <div>
+                <button type="button" class="btn left" (click)="onLogin()" >Login</button>
+                <button type="button" class="btn left" (click)="onRegister()" >Register</button>
+                <app-register-popup *ngIf="isRegisterVisible" (submit)="handleRegistration($event)" (close)="onCloseRegistration()" />
+                <app-login-popup *ngIf="isLoginVisible" (submit)="handleLoginSubmit($event)" (close)="onClosePopup()" />
+            </div>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>

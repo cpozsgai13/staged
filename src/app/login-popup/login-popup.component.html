@@ -1,0 +1,18 @@
+<div class="popup-overlay" (click)="onClose()">
+    <div class="popup-content row" (click)="$event.stopPropagation()">
+      <h2>Enter Credentials:</h2>
+      <div layout="row" layout-align="left">
+        <label>User:</label>
+      </div>
+
+      <input type="text" placeholder="Enter User" name="username" #username />
+      <div layout="row" layout-align="left">
+        <label>Password:</label>
+      </div>
+      <input type="text" placeholder="Enter Password" style="-webkit-text-security: square" name="password" #password/>
+      <div class="popup-content row">
+        <button (click)="onLogin(username, password)">OK</button>
+        <button (click)="onClose()">Cancel</button>
+    </div>
+  </div>
+</div>

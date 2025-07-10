@@ -1,0 +1,50 @@
+{
+  "users" : { "users": ["Chris", "Nick", "Guest"] },
+  "userInfo" : [
+	{
+		"id": 1,
+		"name": "Nick"
+	},
+	{
+		"id": 2,
+		"name": "Chris"
+	}
+  ],
+  "photos" : [
+        {
+		"id": 1,
+                "photos": [
+		"assets/pexels-angelica-og-576905065-18986047.jpg",
+		"assets/pexels-apasaric-3342739.jpg",
+		"assets/pexels-blitzboy-1398266.jpg",
+		"assets/pexels-carlos-santos-892832-3672353.jpg",
+		"assets/pexels-energepic-com-27411-110472.jpg",
+		"assets/pexels-fonok-392625.jpg",
+		"assets/pexels-fridell-3417441.jpg"
+		]
+	},
+        {
+		"id": 2,
+                "photos": [
+		"assets/pexels-gerardo-manzano-251119164-18159819.jpg",
+		"assets/pexels-jibarofoto-2068149.jpg",
+		"assets/pexels-kate-andreeshcheva-35129697-14250706.jpg",
+		"assets/pexels-lucaspezeta-4336969.jpg",
+		"assets/pexels-lucianphotography-3566120.jpg",
+		"assets/pexels-marlein-16010630.jpg",
+		"assets/pexels-marleneleppanen-1426620.jpg",
+		"assets/pexels-maumascaro-1154189.jpg",
+		"assets/pexels-oscar-calstrom-428110439-17226721.jpg",
+		"assets/pexels-pixabay-274192.jpg",
+		"assets/pexels-prateekkatyal-2694434.jpg",
+		"assets/pexels-rafael-de-lancer-330543-3398105.jpg",
+		"assets/pexels-teemu-r-555088-1840320.jpg",
+		"assets/pexels-vladislav-bychkov-14866759-6319353.jpg"	
+		]
+	},
+        {
+		"id": 3,
+                "photos": ["../assets/nyx.png", "../assets/nyx2.png", "assets/StageSplash.png"]
+	}
+ ]
+}
